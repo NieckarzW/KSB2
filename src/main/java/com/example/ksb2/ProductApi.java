@@ -37,7 +37,6 @@ public class ProductApi {
     return "Hello " + name;
   }*/
 
-
   @PostMapping
   public String addProducts() {
     return "Hello world with POST";
